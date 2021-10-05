@@ -4,6 +4,7 @@ import './MainContent.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookReader } from '@fortawesome/free-solid-svg-icons';
 import Rating from 'react-rating';
+import { Link } from 'react-router-dom';
 
 
 const MainContent = () => {
@@ -35,8 +36,8 @@ const MainContent = () => {
                 }
 
             </div>
+            <Button className="browse-btn"><FontAwesomeIcon icon={faBookReader} /> <Link style={{ textDecoration: 'none', color: 'white' }} to='/courses'>Browse All Courses</Link></Button>
 
-            <Button className="browse-btn"><FontAwesomeIcon icon={faBookReader} /> Browse All Courses</Button>
         </div>
     );
 };

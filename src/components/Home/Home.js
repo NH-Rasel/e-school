@@ -1,5 +1,6 @@
 import React from 'react';
-import { Carousel, Container, Nav, Navbar } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
+
 import MainContent from './MainContent';
 
 const Home = () => {
@@ -7,30 +8,6 @@ const Home = () => {
     return (
         <div>
             <header>
-                <Navbar bg="primary" variant="dark" expand="lg">
-                    <Container>
-                        <Navbar.Toggle aria-controls="navbarScroll" />
-                        <Navbar.Collapse id="navbarScroll">
-                            <Navbar.Brand href="#" className="fw-bold">E-School Learning Point</Navbar.Brand>
-                            <div className="ms-auto">
-                                <Nav activeKey="/home">
-                                    <Nav.Item>
-                                        <Nav.Link href="/home">Home</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item className="ms-4">
-                                        <Nav.Link eventKey="link-1">Courses</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item className="ms-4">
-                                        <Nav.Link eventKey="link-2">Teachers</Nav.Link>
-                                    </Nav.Item>
-                                    <Nav.Item className="ms-4">
-                                        <Nav.Link eventKey="link-2">About Us</Nav.Link>
-                                    </Nav.Item>
-                                </Nav>
-                            </div>
-                        </Navbar.Collapse>
-                    </Container>
-                </Navbar>
                 <Carousel fade>
                     <Carousel.Item>
                         <img
