@@ -12,22 +12,22 @@ function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/home">
-            <Home></Home>
+            <Home />
           </Route>
           <Route path="/courses">
-            <Courses></Courses>
+            <Courses />
           </Route>
           <Route path="/teachers">
-            <Teachers></Teachers>
+            <Teachers />
           </Route>
           <Route path="/aboutUs">
-            <AboutUs></AboutUs>
+            <AboutUs />
           </Route>
           <Route exact path="/">
-            <Home></Home>
+            <Home />
           </Route>
           <Route>
-            <NotFound></NotFound>
+            <NotFound />
           </Route>
         </Switch>
       </BrowserRouter>

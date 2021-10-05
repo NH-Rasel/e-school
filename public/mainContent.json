@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "img": "./images/course-img-1.png",
+        "title": "Basic Grammatical Rules",
+        "subject": "English",
+        "rating": 4.5,
+        "price": 85
+    },
+    {
+        "id": 2,
+        "img": "./images/course-img-2.png",
+        "title": "Trigonometric Functions 6th standards",
+        "subject": "Mathematics",
+        "rating": 4.7,
+        "price": 99
+    },
+    {
+        "id": 3,
+        "img": "./images/course-img-3.png",
+        "title": "Organic Chemistry 8th standards",
+        "subject": "Chemistry",
+        "rating": 4.6,
+        "price": 110
+    },
+    {
+        "id": 4,
+        "img": "./images/course-img-4.png",
+        "title": "Introduction of Management",
+        "subject": "Management",
+        "rating": 4.5,
+        "price": 78
+    }
+]

@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.browse-btn{
+    width: 200px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.browse-btn:hover{
+    background-color: brown;
+}
+.single-content{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 18px;
+    background-color: rgb(197, 222, 236);
+    height: 301px;
+}

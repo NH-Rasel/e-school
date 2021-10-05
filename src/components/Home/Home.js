@@ -1,8 +1,9 @@
 import React from 'react';
 import { Carousel, Container, Nav, Navbar } from 'react-bootstrap';
-import './Home.css';
+import MainContent from './MainContent';
 
 const Home = () => {
+
     return (
         <div>
             <header>
@@ -65,7 +66,21 @@ const Home = () => {
                     </Carousel.Item>
                 </Carousel>
             </header>
-
+            <div className="d-flex justify-content-center align-items-center p-3 mb-5" style={{ backgroundColor: 'lightgray' }}>
+                <div className="p-5">
+                    <img src="./images/home-img-1.png" alt="" />
+                    <h4>Get access to join the live class</h4>
+                </div>
+                <div className="p-5">
+                    <img src="./images/home-img-2.png" alt="" />
+                    <h4>Get life time access your courses</h4>
+                </div>
+                <div className="p-5">
+                    <img src="./images/home-img-3.png" alt="" />
+                    <h4>Get instant technical support 24hours </h4>
+                </div>
+            </div>
+            <MainContent />
         </div>
     );
 };
