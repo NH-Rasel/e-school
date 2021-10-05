@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <footer>
-                <p style={{ backgroundColor: 'lightgray', margin: '0px', paddingTop: '10px', height: '50px' }}>e-School © 2021 All Rights Reserved. <Link href="#">Terms & conditions</Link> and <Link href="#">Privacy policy</Link></p>
+                <p style={{ backgroundColor: 'lightgray', margin: '0px', paddingTop: '10px', height: '50px' }}>e-School © 2021 All Rights Reserved. <Link to="/home">Terms & conditions</Link> and <Link to="/courses">Privacy policy</Link></p>
             </footer>
         </div>
     );

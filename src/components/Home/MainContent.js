@@ -19,7 +19,7 @@ const MainContent = () => {
             <h2>-Featured Courses-</h2>
             <div className="container">
                 {
-                    contents.map(content => <div className="single-content">
+                    contents.map(content => <div key={content.id} className="single-content">
                         <img style={{ borderRadius: '10px', width: 'auto' }} src={content.img} alt="" />
                         <div style={{ margin: '20px' }}>
                             <h3>{content.title}</h3>
